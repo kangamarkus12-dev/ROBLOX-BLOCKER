@@ -26,7 +26,7 @@ public class SetupActivity extends AppCompatActivity {
         setContentView(R.layout.activity_setup);
 
         devicePolicyManager = (DevicePolicyManager) getSystemService(Context.DEVICE_POLICY_SERVICE);
-        deviceAdminComponent = new ComponentName(this, DeviceAdminReceiver.class);
+        deviceAdminComponent = new ComponentName(this, MyDeviceAdminReceiver.class);
 
         Button btnEnableAdmin = findViewById(R.id.btn_enable_admin);
         Button btnEnableAccessibility = findViewById(R.id.btn_enable_accessibility);
