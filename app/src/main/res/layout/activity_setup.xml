@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="?? Configuration"
+        android:text="Configuration"
         android:textSize="28sp"
         android:textColor="#25F4EE"
         android:textStyle="bold"
@@ -31,7 +31,7 @@
         android:id="@+id/btn_save_password"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="?? Sauvegarder le code"
+        android:text="Sauvegarder le code"
         android:background="#25F4EE"
         android:textColor="#000000"
         android:layout_marginBottom="16dp" />
@@ -39,7 +39,7 @@
         android:id="@+id/btn_enable_admin"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="?? Activer la protection"
+        android:text="Activer la protection"
         android:background="#FF6B6B"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="12dp" />
@@ -47,7 +47,7 @@
         android:id="@+id/btn_enable_accessibility"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="? Activer l'Accessibilité"
+        android:text="Activer l'Accessibilite"
         android:background="#FFA500"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="12dp" />
@@ -55,13 +55,13 @@
         android:id="@+id/btn_start_service"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:text="?? Activer le blocage"
+        android:text="Activer le blocage"
         android:background="#4CAF50"
         android:textColor="#FFFFFF" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="?? L'application n'a pas d'icône."
+        android:text="L'application n'a pas d'icone."
         android:textColor="#888888"
         android:textSize="12sp"
         android:layout_marginTop="20dp"
